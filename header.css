@@ -13,7 +13,7 @@ header{
 .header_right{
     display: flex;
     /* outline: 2px solid red; */
-    padding: 20px;
+    padding: 6px 10px;
 }
 .header_right nav a{
     color: #FCEBE3;
@@ -21,11 +21,11 @@ header{
     font-weight: 400;
     letter-spacing: 3px;
     text-decoration: none;
-    padding: 0 16px;
+    padding: 0 14px;
 }
 nav a:hover{
     color: #F8C747;
 }
 .header_right .header_icon .fa-solid{
-    padding: 0 10px;
+    padding: 0 6px;
 }
