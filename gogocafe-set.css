@@ -1,0 +1,725 @@
+/* <!-- 第一欄 --> */
+header{
+    background-color: #4C3D27;
+}
+.header_row{
+    display: flex;
+    padding: 6px 40px;
+}
+.header_row nav{
+    text-align: right;
+    width: 100%;
+}
+nav a{
+    display: inline-block;
+    padding: 0 10px;
+    color: #FCEBE3;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height:100px;
+    letter-spacing: 3px;
+    font-family: Noto Sans TC;
+}
+nav a:hover{
+    color: #F8C747;
+}
+.header_icon{
+    display: inline-block;
+}
+.fa-magnifying-glass{
+    margin-left: 20px;
+}
+.fa-user{
+    margin-left: 20px;
+}
+
+/* 第二欄 */
+.banner{
+    /* width: auto; */
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner_box{
+    width: 580px;
+    background-color: #291700;
+    opacity: .7;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    padding: 60px 30px;
+    margin: 30px;
+    border-radius: 0 30px 0 30px;
+}
+.banner_title {
+    margin-bottom: 50px;
+}
+.banner_title h2{
+    color: #FCEBE3;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: Noto Sans TC;
+}
+.banner_con p{
+    color: #FCEBE3;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    padding: 0 22px;
+    font-family: Noto Sans TC;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* 第三欄 */
+.about_section{
+    position: relative;
+    /* outline: 2px solid red; */
+}
+.about_container{
+    width: 1200px;
+    margin: auto;
+    padding: 60px 0 0 0;
+}
+.about_pic_txt{
+    display: flex;
+    position: relative;
+}
+.about_pic-coffee{
+    width: 500px;
+    margin: 40px 0 40px 60px ;
+}
+.about_pic-coffee img{
+    width: 100%;
+    border-radius: 0 30px 0 30px;
+}
+.about_txt{
+    margin-top: 40px;
+}
+.about_txt .about_txt_title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.about_txt .about_txt_title p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 16px;
+    font-family: Noto Sans TC;
+}
+.about_txt .about_txt_title p + p::before{
+    content: " ";
+    border: 2px solid #4C3D27;
+    height: 30px;
+    position: absolute;
+    top: -6px;
+    right: 330px;
+}
+.horizontal_line_about_right{
+    width: 80px;
+    height: 10px;
+    background-color: #F8C747;
+    right: 80px;
+    top: 46px;
+    position: absolute;
+}
+.horizontal_line_about_left{
+    width: 80px;
+    height: 10px;
+    background-color: #F8C747;
+    right: 500px;
+    top: 46px;
+    position: absolute;
+}
+.about_txt .about_txt_con{
+    background-color: #FFEFC6;
+    border-radius: 30px;
+    width: 520px;
+    align-self: center;
+    margin: 40px 50px;
+    padding: 20px;
+    position: relative; 
+}
+.about_txt .about_txt_con p{
+    font-size: 16px;
+    padding: 24px 60px;
+    line-height: 30px;
+    font-family: Noto Sans TC;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.about_arrow{
+    width: 0px;
+    height: 0px;
+    border: 40px solid;
+    border-color: #FFEFC6 transparent transparent transparent;
+    position: absolute;
+    right:300px;
+    top: 396px;
+}
+.about_pic-dog{
+    width: 300px;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 380px;
+}
+.about_pic-dog img{
+    width: 100%;
+}
+
+
+/* 第四欄 */
+.news_section{
+    position: relative;
+    padding-top: 300px;
+    /* outline: 2px solid blue; */
+}
+.news_container{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.news_title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+}
+.news_title p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 16px;
+    font-family: Noto Sans TC;
+}
+.horizontal_line_news_right{
+    width: 80px;
+    height: 10px;
+    background-color: #F8C747;
+    right: 360px;
+    top: 26px;
+    position: absolute;
+}
+.horizontal_line_news_left{
+    width: 80px;
+    height: 10px;
+    background-color: #F8C747;
+    right: 750px;
+    top: 26px;
+    position: absolute;
+}
+.news_title p + p::before{
+    content: " ";
+    border: 2px solid #4C3D27;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    right: 566px;
+}
+.news_pic{
+    display: flex;
+    position: relative;
+} 
+.news_pic .news_pic_01 {
+    width: 400px;
+    position: absolute;
+    z-index: 5;
+    left: 400px;
+}
+.news_pic .news_pic_01 img{
+    width: 100%;
+}
+.news_pic .news_pic_bottom{
+    display: flex;
+}
+.news_pic .news_pic_02_03{
+    display: flex;
+}
+.news_pic_02_03 .news_pic_02{
+    width: 360px;
+    position: absolute;
+    z-index: 4;
+    left: 220px;
+    top: 26px;
+}
+.news_pic_02_03 .news_pic_02 img{
+    width: 100%;
+    filter:brightness(40%)
+}
+.news_pic_02_03 .news_pic_03{
+    width: 360px;
+    position: absolute;
+    z-index: 4;
+    right: 220px;
+    top: 26px;
+}
+.news_pic_02_03 .news_pic_03 img{
+    width: 100%;
+    filter:brightness(40%)
+}
+.news_pic .news_pic_04_05{
+    display: flex;
+}
+.news_pic_04_05 .news_pic_04{
+    width: 240px;
+    position: absolute;
+    z-index: 3;
+    left: 120px;
+    top: 90px;
+}
+.news_pic_04_05 .news_pic_04 img{
+    width: 100%;
+    filter:brightness(40%)
+}
+.news_pic_04_05 .news_pic_05{
+    width: 240px;
+    position: absolute;
+    z-index: 3;
+    right: 120px;
+    top: 90px;
+}
+.news_pic_04_05 .news_pic_05 img{
+    width: 100%;
+    filter:brightness(40%)
+}
+.news_txt{
+    margin: 480px 0 50px 0;
+}
+.news_txt .news_txt_slogan{
+    text-align: center;
+}
+.news_txt .news_txt_slogan h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Noto Sans TC;
+    padding: 20px 0 30px 0;
+}
+.news_txt .news_txt_con{
+    width: 400px;
+    margin: 0 0 0 400px;
+}
+.news_txt .news_txt_con p{
+    font-size: 16px;
+    width: 420px;
+    font-family: Noto Sans TC;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.news_turn_left{
+    width: 18px;
+    border-radius: 100%;
+    padding: 8px 14px;
+    border: 6px solid #F8C747;
+    position: absolute;
+    left: 340px;
+    bottom: 240px
+}
+.news_turn_right{
+    width: 18px;
+    border-radius: 100%;
+    padding: 8px 14px;
+    border: 6px solid #F8C747;
+    position: absolute;
+    right: 340px;
+    bottom: 240px
+}
+.news_turn img{
+    width: 100%;
+}
+.news_button{
+    margin: 30px 0 200px 0;
+    text-align: center;
+}
+
+#news_button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Noto Sans TC;
+    border: 4px solid #F8C747;
+    background-color: #fff;
+}
+.bgc_filter{
+    width: 240px;
+    position: absolute;
+    right: 60px;
+    bottom: -100px;
+}
+.bgc_filter img{
+    width: 100%;
+}
+.bgc_slice1{
+    width: 1060px;
+    position: absolute;
+    right: 30px;
+    top: 230px;
+}
+.bgc_slice1 img{
+    width: 100%;
+}
+.bgc_kettle{
+    width: 260px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bgc_kettle img{
+    width: 100%;
+}
+
+
+/* 第五欄 */
+.product_section{
+    background: url(../gogocafe/pic/bgc.svg) no-repeat;
+    margin-bottom: -300px;
+    margin-top: -240px;
+    position: relative;
+    /* outline: 2px solid red; */
+}
+.product_container{
+    width: 1200px;
+    margin: auto;
+}
+.product_title{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 100px 0;
+    position: relative;
+}
+.product_title p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 16px;
+    font-family: Noto Sans TC;
+}
+.product_title p + p::before{
+    content: " ";
+    border: 2px solid #4C3D27;
+    height: 30px;
+    position: absolute;
+    top: -6px;
+    right: 600px;
+}
+.product_row{
+    padding: 200px 0;
+}
+.product_pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    position: relative;
+}
+.product_pic .product_pic_drink{
+    width: 260px;
+}
+.product_pic .product_pic_drink img{
+    width: 100%;
+}
+.product_pic_drink h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    font-family: Noto Sans TC;
+}
+.product_pic_drink p{
+    font-size: 16px;
+    font-family: Noto Sans TC;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.product_pic .product_pic_food{
+    width: 260px;
+    margin-top: -100px;
+}
+.product_pic .product_pic_food img{
+    width: 100%;
+}
+.product_pic_food h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    font-family: Noto Sans TC;
+}
+.product_pic_food p{
+    font-size: 16px;
+    font-family: Noto Sans TC;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.product_pic .product_pic_dessert{
+    width: 260px;
+}
+.product_pic .product_pic_dessert img{
+    width: 100%;
+}
+.product_pic_dessert h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    font-family: Noto Sans TC;
+}
+.product_pic_dessert p{
+    font-size: 16px;
+    font-family: Noto Sans TC;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.product_pic .product_turn_right_right{
+    width: 18px;
+    border-radius: 100%;
+    padding: 8px 14px;
+    border: 6px solid #F8C747;
+    position: absolute;
+    right: 96px;
+    bottom: 226px;
+}
+.product_pic .product_turn_right_left{
+    width: 18px;
+    border-radius: 100%;
+    padding: 8px 14px;
+    border: 6px solid #F8C747;
+    position: absolute;
+    left: 306px;
+    bottom: 226px;
+}
+.product_pic .product_turn_right_center{
+    width: 18px;
+    border-radius: 100%;
+    padding: 8px 14px;
+    border: 6px solid #F8C747;
+    position: absolute;
+    left: 686px;
+    top: 190px;
+}
+.product_pic_center{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;   
+    /* outline: 2px solid rgb(64, 120, 232); */
+}
+.product_button{
+    margin: 6px 0 200px 0;
+    text-align: center;
+}
+#product_button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Noto Sans TC;
+    border: 4px solid #F8C747;
+    background-color: #fff;
+}
+.bgc_lice3{
+    width: 100px;
+    position: absolute;
+    right: 140px;
+    top: 140px;
+    z-index: -2;
+}
+.bgc_lice3 img{
+    width: 100%;
+}
+
+
+/* 第六欄 */
+.app_section{
+    padding: 240px 0;
+    position: relative;
+    /* outline: 2px solid rgb(164, 234, 141); */
+}
+.app_container{
+    width: 1200px;
+    margin: auto;
+}
+.app_box{
+    display: flex;
+    justify-content: flex-end;
+    width: 84%;
+    border: 10px solid #F8C747;
+    padding: 120px 30px;
+    position: relative;
+    margin:auto;
+}
+.app_box .app_pic{
+    position: absolute;
+    top: -100px;
+    left: 40px;
+    width: 460px;
+}
+.app_pic img {
+    width: 100%;
+}
+.app_box .app_tidy{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.app_box .app_tidy .app_txt .app_txt_title{
+    text-align: center;
+    padding: 20px;
+}
+.app_box .app_tidy .app_txt .app_txt_title h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Noto Sans TC;
+}
+.app_box .app_tidy .app_txt .app_txt_con{
+    width: 454px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.app_box .app_tidy .app_txt .app_txt_con p{
+    font-size: 16px;
+    font-family: Noto Sans TC;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.app_box .app_tidy .app_app{
+    display: flex;
+    justify-content: space-evenly;
+}
+.app_box .app_tidy .app_app .app_app_google{
+    width: 200px;
+}
+.app_box .app_tidy .app_app .app_app_google img{
+    width: 100%;
+}.app_box .app_tidy .app_app .app_app_apple{
+    width: 200px;
+}
+.app_box .app_tidy .app_app .app_app_apple img{
+    width: 100%;
+}
+.bgc_coffeebean_left{
+    width: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bgc_coffeebean_left img{
+    width: 100%;
+}
+.bgc_coffeebean_right{
+    width: 240px;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+.bgc_coffeebean_right img{
+    width: 100%;
+}
+.bgc_coffeepot{
+    width: 300px;
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+}
+.bgc_coffeepot img{
+    width: 100%;
+}
+.bgc_slice2{
+    width: 900px;
+    position: absolute;
+    left: 160px;
+    bottom: 180px;
+    z-index: -1;
+}
+.bgc_slice2 img{
+    width: 100%;
+}
+
+
+/* 第七欄 */
+.footer_bgc{
+    background-color: #4C3D27;
+    position: relative;
+}
+.footer_container{
+    width: 1200px;
+    margin: auto;
+    /* outline: 2px solid red; */
+}
+.footer_con{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 80px 0 80px ;
+}
+.footer_con .footer_contact p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #FCEBE3;
+    padding: 10px;
+    font-family: Noto Sans TC;
+    letter-spacing: 3px;
+}
+.footer_con .footer_nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.footer_con .footer_nav p{
+    font-size: 16px;
+    color: #FCEBE3;
+    padding: 20px;
+    font-family: Noto Sans TC;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+.footer_follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_follow_title p{
+    font-size: 16px;
+    color: #FCEBE3;
+    padding: 20px;
+    font-family: Noto Sans TC;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+.footer_follow_icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer_remark{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer_remark p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #FCEBE3;
+    font-family: Noto Sans TC;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.footer_slice{
+    width: 4px;
+    height: 100px;
+    background-color: #FCEBE3 ;
+}
+.footer_logo{
+    width: auto;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
