@@ -1,38 +1,5 @@
-/* <!-- 第一欄 --> */
-header{
-    background-color: #4C3D27;
-}
-.header_row{
-    display: flex;
-    padding: 6px 40px;
-}
-.header_row nav{
-    text-align: right;
-    width: 100%;
-}
-nav a{
-    display: inline-block;
-    padding: 0 10px;
-    color: #FCEBE3;
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    line-height:100px;
-    letter-spacing: 3px;
-    font-family: Noto Sans TC;
-}
-nav a:hover{
-    color: #F8C747;
-}
-.header_icon{
-    display: inline-block;
-}
-.fa-magnifying-glass{
-    margin-left: 20px;
-}
-.fa-user{
-    margin-left: 20px;
-}
+
+
 
 /* 第二欄 */
 .banner{

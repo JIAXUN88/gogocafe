@@ -1,0 +1,30 @@
+header{
+    background-color: #4C3D27;
+}
+.header_container{
+    width: 1200px;
+    margin: auto;
+}
+.header_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right{
+    display: flex;
+    /* outline: 2px solid red; */
+    padding: 20px;
+}
+.header_right nav a{
+    color: #FCEBE3;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0 16px;
+}
+nav a:hover{
+    color: #F8C747;
+}
+.header_right .header_icon .fa-solid{
+    padding: 0 10px;
+}
