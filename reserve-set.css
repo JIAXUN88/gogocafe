@@ -319,3 +319,7 @@ nav a:hover{
     left: 40px;
     top: 40px;
 }
+.footer_nav a {
+    color: #FCEBE3;
+    text-decoration: none;
+}
